@@ -38,9 +38,12 @@
     "webpack-dev-server": "^3.1.8"
   },
   "dependencies": {
+    "@material-ui/core": "^4.4.2",
+    "@material-ui/icons": "^4.4.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-hot-loader": "^4.3.11"
+    "react-hot-loader": "^4.3.11",
+    "react-router-dom": "^5.0.1"
   },
-  "proxy": "https://api-nba-v1.p.rapidapi.com/games/live/"
+  "proxy": "https://api.sportsdata.io/v3/nba/scores/json/"
 }
